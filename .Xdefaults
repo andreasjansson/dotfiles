@@ -1,0 +1,20 @@
+*xterm.*.background:         Black
+*xterm.*.color0:             Black
+*xterm.*.color1:             Red
+*xterm.*.color2:             Green
+*xterm.*.color3:             Yellow
+*xterm.*.color4:             CornflowerBlue
+*xterm.*.color5:             Magenta
+*xterm.*.color6:             Cyan
+*xterm.*.color7:             White
+*xterm.*.colorBD:            White
+*xterm.*.colorBDMode:        true
+*xterm.*.colorUL:            Yellow
+*xterm.*.colorULMode:        true
+*xterm.*.cursorColor:        Red
+*xterm.*.foreground:         White
+*xterm*metaSendsEscape:      true
+*xterm*saveLines:	     4096
+*xterm*locale:		     true
+*xterm*faceName: Bitstream Vera Sans Mono
+*xterm*faceSize: 11
