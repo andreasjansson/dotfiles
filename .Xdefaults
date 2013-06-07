@@ -18,3 +18,5 @@
 *xterm*locale:		     true
 *xterm*faceName: Bitstream Vera Sans Mono
 *xterm*faceSize: 11
+
+emacs.font: monospace-11

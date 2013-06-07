@@ -1,11 +1,11 @@
 out_to_console yes
 out_to_x no
 background no
-update_interval 2
+update_interval 1
 total_run_times 0
 use_spacer left
 short_units
 no_buffers yes
  
 TEXT
-${cpu cpu1}% ${freq cpu1}MHz / ${cpu cpu2}% ${freq cpu2}MHz | load ${loadavg 1} | mem $mem ($cached) | swap $swap | disk ${diskio_read} ${diskio_write} | net ${downspeed wlan0} ${upspeed wlan0} | ${time %Y-%m-%d %H:%M}
+${cpu cpu1}% (${freq cpu1}MHz) ${cpu cpu2}% (${freq cpu2}MHz) ${cpu cpu3}% (${freq cpu3}MHz) ${cpu cpu4}% (${freq cpu4}MHz) | load ${loadavg 1} | mem $mem ($cached) | swap $swap | disk ${diskio_read} ${diskio_write} | net ${downspeed wlan0} ${upspeed wlan0} | ${battery} | ${acpitemp}C | ${time %Y-%m-%d %H:%M}
